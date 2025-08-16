@@ -5,6 +5,9 @@ body {
     padding: 0;
     background: #f4f4f4;
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -37,7 +40,7 @@ nav a {
 
 main {
     padding: 20px;
-    min-height: 300px;
+    flex: 1;
 }
 
 footer {
@@ -45,7 +48,5 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: relative;
-    bottom: 0;
     width: 100%;
 }
